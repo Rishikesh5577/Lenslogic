@@ -5,7 +5,9 @@
   "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "echo \"Build complete\""
   },
   "keywords": [],
   "author": "",
@@ -15,7 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.1"
   },
